@@ -9,10 +9,51 @@
 }
 
 body {
-    background-color: #c0c0c0;
+    background-color: black;
     font-family: "VT323", monospace;
     font-size: 20px;
-    color: #000;
 }
 
+/* ========== INTRO SCREEN ========== */
+#intro-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
 
+.pc-screen {
+    position: relative;
+    display: inline-block;
+}
+
+.pc-frame {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.screen-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #00ff99;
+    font-size: 22px;
+    text-shadow: 0 0 8px #00ff99;
+    pointer-events: none;
+}
+
+/* ========== BLINK ANIMATION ========== */
+.blink {
+    margin-top: 10px;
+    animation: blink 2s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

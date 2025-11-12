@@ -18,9 +18,12 @@
         <body>
             <div class="wrapper">
                 <div id="intro-screen">
-                    <div class="crt">
-                        <p>☆✿ Welcome to the LO DEVIGN dimension ✿☆</p>
-                        <p class="blink">Press [Enter] to connect</p>
+                    <div class="pc-screen">
+                        <img src="img/pc2.png" alt="old computer drawing" class="pc-frame">
+                        <div class="screen-content crt">
+                            <p class="title-line">☆✿ Welcome to the LO DEVIGN dimension ✿☆</p>
+                            <p class="blink">Press [Enter] to connect</p>
+                        </div>
                     </div>
                 </div>
             </div>
